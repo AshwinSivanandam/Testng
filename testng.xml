@@ -2,16 +2,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  
   <groups>
   <run>
   <include name=".*sm"/>
   </run>
   </groups>
+  
     <classes>
       <class name="basics.Main1"/>
-      <class name="basics.Main2"/>
+      <class name="basics.Main2">
       
-     <!--  <methods>
+      <methods>
       <exclude name="a"/>
    
        <exclude name="d"/>
@@ -22,7 +24,12 @@
       <exclude name="f"/>
       
        <include name="g"/>
-      </methods> -->
+      </methods>
+      </class>
+      
+      <class name="basics.Main3">
+      
+      </class>
       
        
     </classes>
