@@ -8,7 +8,7 @@ public class Main2 {
 	@Test(groups="fsm")
 	public void f()
 	{
-		Reporter.log("f() of Main2", true);
+		Reporter.log("f() of Mainn2", true);
 	}
 	
 	@Test(groups="re")
